@@ -308,3 +308,26 @@
 _::-webkit-full-page-media, _:future, :root .burger-menu {
     margin-top: 3px !important;
 }
+
+@media (max-width: 480px) {
+    .full-menu-button {
+        font-size: 0.9rem;
+        padding: 1rem 1.5rem;
+        white-space: nowrap;
+    }
+    
+    .button-text {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 360px) {
+    .full-menu-button {
+        font-size: 0.85rem;
+        padding: 0.9rem 1.2rem;
+    }
+    
+    .button-text {
+        font-size: 0.85rem;
+    }
+}
